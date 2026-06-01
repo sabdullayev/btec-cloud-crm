@@ -5,8 +5,8 @@ return [
     'port' => '',
     'charset' => NULL,
     'dbname' => 'espocrm',
-    'user' => 'espo',
-    'password' => 'MyStrongPass123!',
+    'user' => '',
+    'password' => '',
     'platform' => 'Mysql'
   ],
   'smtpPassword' => '',

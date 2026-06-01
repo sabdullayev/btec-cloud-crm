@@ -3,65 +3,65 @@
   array (
     'GET' => 
     array (
-      '/espocrm/espocrm/api/v1/Activities/upcoming' => 'route3',
-      '/espocrm/espocrm/api/v1/Activities' => 'route4',
-      '/espocrm/espocrm/api/v1/Timeline' => 'route5',
-      '/espocrm/espocrm/api/v1/Timeline/busyRanges' => 'route6',
-      '/espocrm/espocrm/api/v1/' => 'route15',
-      '/espocrm/espocrm/api/v1/App/user' => 'route16',
-      '/espocrm/espocrm/api/v1/App/about' => 'route18',
-      '/espocrm/espocrm/api/v1/Metadata' => 'route19',
-      '/espocrm/espocrm/api/v1/I18n' => 'route20',
-      '/espocrm/espocrm/api/v1/Settings' => 'route21',
-      '/espocrm/espocrm/api/v1/Stream' => 'route24',
-      '/espocrm/espocrm/api/v1/GlobalStream' => 'route25',
-      '/espocrm/espocrm/api/v1/GlobalSearch' => 'route26',
-      '/espocrm/espocrm/api/v1/Admin/jobs' => 'route37',
-      '/espocrm/espocrm/api/v1/CurrencyRate' => 'route43',
-      '/espocrm/espocrm/api/v1/Email/inbox/notReadCounts' => 'route75',
-      '/espocrm/espocrm/api/v1/Email/insertFieldData' => 'route76',
-      '/espocrm/espocrm/api/v1/EmailAddress/search' => 'route77',
-      '/espocrm/espocrm/api/v1/Oidc/authorizationData' => 'route87',
+      '/espocrm/api/v1/Activities/upcoming' => 'route3',
+      '/espocrm/api/v1/Activities' => 'route4',
+      '/espocrm/api/v1/Timeline' => 'route5',
+      '/espocrm/api/v1/Timeline/busyRanges' => 'route6',
+      '/espocrm/api/v1/' => 'route15',
+      '/espocrm/api/v1/App/user' => 'route16',
+      '/espocrm/api/v1/App/about' => 'route18',
+      '/espocrm/api/v1/Metadata' => 'route19',
+      '/espocrm/api/v1/I18n' => 'route20',
+      '/espocrm/api/v1/Settings' => 'route21',
+      '/espocrm/api/v1/Stream' => 'route24',
+      '/espocrm/api/v1/GlobalStream' => 'route25',
+      '/espocrm/api/v1/GlobalSearch' => 'route26',
+      '/espocrm/api/v1/Admin/jobs' => 'route37',
+      '/espocrm/api/v1/CurrencyRate' => 'route43',
+      '/espocrm/api/v1/Email/inbox/notReadCounts' => 'route75',
+      '/espocrm/api/v1/Email/insertFieldData' => 'route76',
+      '/espocrm/api/v1/EmailAddress/search' => 'route77',
+      '/espocrm/api/v1/Oidc/authorizationData' => 'route87',
     ),
     'POST' => 
     array (
-      '/espocrm/espocrm/api/v1/App/destroyAuthToken' => 'route17',
-      '/espocrm/espocrm/api/v1/Admin/rebuild' => 'route35',
-      '/espocrm/espocrm/api/v1/Admin/clearCache' => 'route36',
-      '/espocrm/espocrm/api/v1/Action' => 'route45',
-      '/espocrm/espocrm/api/v1/MassAction' => 'route46',
-      '/espocrm/espocrm/api/v1/Export' => 'route49',
-      '/espocrm/espocrm/api/v1/Import' => 'route52',
-      '/espocrm/espocrm/api/v1/Import/file' => 'route53',
-      '/espocrm/espocrm/api/v1/Attachment/fromImageUrl' => 'route62',
-      '/espocrm/espocrm/api/v1/Email/importEml' => 'route66',
-      '/espocrm/espocrm/api/v1/Email/sendTest' => 'route67',
-      '/espocrm/espocrm/api/v1/Email/inbox/read' => 'route68',
-      '/espocrm/espocrm/api/v1/Email/inbox/important' => 'route70',
-      '/espocrm/espocrm/api/v1/Email/inbox/inTrash' => 'route72',
-      '/espocrm/espocrm/api/v1/UserSecurity/apiKey/generate' => 'route80',
-      '/espocrm/espocrm/api/v1/UserSecurity/password/recovery' => 'route82',
-      '/espocrm/espocrm/api/v1/UserSecurity/password/generate' => 'route83',
-      '/espocrm/espocrm/api/v1/User/passwordChangeRequest' => 'route84',
-      '/espocrm/espocrm/api/v1/User/changePasswordByRequest' => 'route85',
-      '/espocrm/espocrm/api/v1/Oidc/backchannelLogout' => 'route88',
+      '/espocrm/api/v1/App/destroyAuthToken' => 'route17',
+      '/espocrm/api/v1/Admin/rebuild' => 'route35',
+      '/espocrm/api/v1/Admin/clearCache' => 'route36',
+      '/espocrm/api/v1/Action' => 'route45',
+      '/espocrm/api/v1/MassAction' => 'route46',
+      '/espocrm/api/v1/Export' => 'route49',
+      '/espocrm/api/v1/Import' => 'route52',
+      '/espocrm/api/v1/Import/file' => 'route53',
+      '/espocrm/api/v1/Attachment/fromImageUrl' => 'route62',
+      '/espocrm/api/v1/Email/importEml' => 'route66',
+      '/espocrm/api/v1/Email/sendTest' => 'route67',
+      '/espocrm/api/v1/Email/inbox/read' => 'route68',
+      '/espocrm/api/v1/Email/inbox/important' => 'route70',
+      '/espocrm/api/v1/Email/inbox/inTrash' => 'route72',
+      '/espocrm/api/v1/UserSecurity/apiKey/generate' => 'route80',
+      '/espocrm/api/v1/UserSecurity/password/recovery' => 'route82',
+      '/espocrm/api/v1/UserSecurity/password/generate' => 'route83',
+      '/espocrm/api/v1/User/passwordChangeRequest' => 'route84',
+      '/espocrm/api/v1/User/changePasswordByRequest' => 'route85',
+      '/espocrm/api/v1/Oidc/backchannelLogout' => 'route88',
     ),
     'PATCH' => 
     array (
-      '/espocrm/espocrm/api/v1/Settings' => 'route22',
+      '/espocrm/api/v1/Settings' => 'route22',
     ),
     'PUT' => 
     array (
-      '/espocrm/espocrm/api/v1/Settings' => 'route23',
-      '/espocrm/espocrm/api/v1/CurrencyRate' => 'route44',
-      '/espocrm/espocrm/api/v1/Kanban/order' => 'route58',
-      '/espocrm/espocrm/api/v1/UserSecurity/password' => 'route81',
+      '/espocrm/api/v1/Settings' => 'route23',
+      '/espocrm/api/v1/CurrencyRate' => 'route44',
+      '/espocrm/api/v1/Kanban/order' => 'route58',
+      '/espocrm/api/v1/UserSecurity/password' => 'route81',
     ),
     'DELETE' => 
     array (
-      '/espocrm/espocrm/api/v1/Email/inbox/read' => 'route69',
-      '/espocrm/espocrm/api/v1/Email/inbox/important' => 'route71',
-      '/espocrm/espocrm/api/v1/Email/inbox/inTrash' => 'route73',
+      '/espocrm/api/v1/Email/inbox/read' => 'route69',
+      '/espocrm/api/v1/Email/inbox/important' => 'route71',
+      '/espocrm/api/v1/Email/inbox/inTrash' => 'route73',
     ),
   ),
   1 => 
@@ -70,7 +70,7 @@
     array (
       0 => 
       array (
-        'regex' => '~^(?|/espocrm/espocrm/api/v1/Activities/([^/]+)/([^/]+)/composeEmailAddressList|/espocrm/espocrm/api/v1/Activities/([^/]+)/([^/]+)/([^/]+)|/espocrm/espocrm/api/v1/Activities/([^/]+)/([^/]+)/([^/]+)/list/([^/]+)|/espocrm/espocrm/api/v1/Meeting/([^/]+)/attendees()()()()|/espocrm/espocrm/api/v1/Call/([^/]+)/attendees()()()()()|/espocrm/espocrm/api/v1/TargetList/([^/]+)/optedOut()()()()()()|/espocrm/espocrm/api/v1/([^/]+)/action/([^/]+)()()()()()()|/espocrm/espocrm/api/v1/([^/]+)/layout/([^/]+)()()()()()()()|/espocrm/espocrm/api/v1/Admin/fieldManager/([^/]+)/([^/]+)()()()()()()()()|/espocrm/espocrm/api/v1/MassAction/([^/]+)/status()()()()()()()()()()|/espocrm/espocrm/api/v1/Export/([^/]+)/status()()()()()()()()()()())$~',
+        'regex' => '~^(?|/espocrm/api/v1/Activities/([^/]+)/([^/]+)/composeEmailAddressList|/espocrm/api/v1/Activities/([^/]+)/([^/]+)/([^/]+)|/espocrm/api/v1/Activities/([^/]+)/([^/]+)/([^/]+)/list/([^/]+)|/espocrm/api/v1/Meeting/([^/]+)/attendees()()()()|/espocrm/api/v1/Call/([^/]+)/attendees()()()()()|/espocrm/api/v1/TargetList/([^/]+)/optedOut()()()()()()|/espocrm/api/v1/([^/]+)/action/([^/]+)()()()()()()|/espocrm/api/v1/([^/]+)/layout/([^/]+)()()()()()()()|/espocrm/api/v1/Admin/fieldManager/([^/]+)/([^/]+)()()()()()()()()|/espocrm/api/v1/MassAction/([^/]+)/status()()()()()()()()()()|/espocrm/api/v1/Export/([^/]+)/status()()()()()()()()()()())$~',
         'routeMap' => 
         array (
           3 => 
@@ -174,7 +174,7 @@
       ),
       1 => 
       array (
-        'regex' => '~^(?|/espocrm/espocrm/api/v1/Kanban/([^/]+)|/espocrm/espocrm/api/v1/Attachment/file/([^/]+)()|/espocrm/espocrm/api/v1/User/([^/]+)/stream/own()()|/espocrm/espocrm/api/v1/User/([^/]+)/acl()()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)()()()|/espocrm/espocrm/api/v1/([^/]+)()()()()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)/followers()()()()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)/stream()()()()()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)/posts()()()()()()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)/updateStream()()()()()()()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)/([^/]+)()()()()()()()())$~',
+        'regex' => '~^(?|/espocrm/api/v1/Kanban/([^/]+)|/espocrm/api/v1/Attachment/file/([^/]+)()|/espocrm/api/v1/User/([^/]+)/stream/own()()|/espocrm/api/v1/User/([^/]+)/acl()()()|/espocrm/api/v1/([^/]+)/([^/]+)()()()|/espocrm/api/v1/([^/]+)()()()()()|/espocrm/api/v1/([^/]+)/([^/]+)/followers()()()()()|/espocrm/api/v1/([^/]+)/([^/]+)/stream()()()()()()|/espocrm/api/v1/([^/]+)/([^/]+)/posts()()()()()()()|/espocrm/api/v1/([^/]+)/([^/]+)/updateStream()()()()()()()()|/espocrm/api/v1/([^/]+)/([^/]+)/([^/]+)()()()()()()()())$~',
         'routeMap' => 
         array (
           2 => 
@@ -279,7 +279,7 @@
     array (
       0 => 
       array (
-        'regex' => '~^(?|/espocrm/espocrm/api/v1/Campaign/([^/]+)/generateMailMerge|/espocrm/espocrm/api/v1/Campaign/unsubscribe/([^/]+)()|/espocrm/espocrm/api/v1/Campaign/unsubscribe/([^/]+)/([^/]+)()|/espocrm/espocrm/api/v1/LeadCapture/([^/]+)()()()|/espocrm/espocrm/api/v1/([^/]+)/action/([^/]+)()()()|/espocrm/espocrm/api/v1/Admin/fieldManager/([^/]+)()()()()()|/espocrm/espocrm/api/v1/MassAction/([^/]+)/subscribe()()()()()()|/espocrm/espocrm/api/v1/Export/([^/]+)/subscribe()()()()()()()|/espocrm/espocrm/api/v1/Import/([^/]+)/revert()()()()()()()()|/espocrm/espocrm/api/v1/Import/([^/]+)/removeDuplicates()()()()()()()()()|/espocrm/espocrm/api/v1/Import/([^/]+)/unmarkDuplicates()()()()()()()()()())$~',
+        'regex' => '~^(?|/espocrm/api/v1/Campaign/([^/]+)/generateMailMerge|/espocrm/api/v1/Campaign/unsubscribe/([^/]+)()|/espocrm/api/v1/Campaign/unsubscribe/([^/]+)/([^/]+)()|/espocrm/api/v1/LeadCapture/([^/]+)()()()|/espocrm/api/v1/([^/]+)/action/([^/]+)()()()|/espocrm/api/v1/Admin/fieldManager/([^/]+)()()()()()|/espocrm/api/v1/MassAction/([^/]+)/subscribe()()()()()()|/espocrm/api/v1/Export/([^/]+)/subscribe()()()()()()()|/espocrm/api/v1/Import/([^/]+)/revert()()()()()()()()|/espocrm/api/v1/Import/([^/]+)/removeDuplicates()()()()()()()()()|/espocrm/api/v1/Import/([^/]+)/unmarkDuplicates()()()()()()()()()())$~',
         'routeMap' => 
         array (
           2 => 
@@ -376,7 +376,7 @@
       ),
       1 => 
       array (
-        'regex' => '~^(?|/espocrm/espocrm/api/v1/Import/([^/]+)/exportErrors|/espocrm/espocrm/api/v1/Attachment/chunk/([^/]+)()|/espocrm/espocrm/api/v1/Attachment/copy/([^/]+)()()|/espocrm/espocrm/api/v1/EmailTemplate/([^/]+)/prepare()()()|/espocrm/espocrm/api/v1/Email/([^/]+)/attachments/copy()()()()|/espocrm/espocrm/api/v1/Email/inbox/folders/([^/]+)()()()()()|/espocrm/espocrm/api/v1/([^/]+)()()()()()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)/followers()()()()()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)/pin()()()()()()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)/([^/]+)()()()()()()())$~',
+        'regex' => '~^(?|/espocrm/api/v1/Import/([^/]+)/exportErrors|/espocrm/api/v1/Attachment/chunk/([^/]+)()|/espocrm/api/v1/Attachment/copy/([^/]+)()()|/espocrm/api/v1/EmailTemplate/([^/]+)/prepare()()()|/espocrm/api/v1/Email/([^/]+)/attachments/copy()()()()|/espocrm/api/v1/Email/inbox/folders/([^/]+)()()()()()|/espocrm/api/v1/([^/]+)()()()()()()|/espocrm/api/v1/([^/]+)/([^/]+)/followers()()()()()()|/espocrm/api/v1/([^/]+)/([^/]+)/pin()()()()()()()|/espocrm/api/v1/([^/]+)/([^/]+)/([^/]+)()()()()()()())$~',
         'routeMap' => 
         array (
           2 => 
@@ -470,7 +470,7 @@
     array (
       0 => 
       array (
-        'regex' => '~^(?|/espocrm/espocrm/api/v1/Campaign/unsubscribe/([^/]+)|/espocrm/espocrm/api/v1/Campaign/unsubscribe/([^/]+)/([^/]+)|/espocrm/espocrm/api/v1/Admin/fieldManager/([^/]+)/([^/]+)()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)/followers()()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)/subscription()()()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)/pin()()()()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)/starSubscription()()()()()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)/([^/]+)()()()()()())$~',
+        'regex' => '~^(?|/espocrm/api/v1/Campaign/unsubscribe/([^/]+)|/espocrm/api/v1/Campaign/unsubscribe/([^/]+)/([^/]+)|/espocrm/api/v1/Admin/fieldManager/([^/]+)/([^/]+)()|/espocrm/api/v1/([^/]+)/([^/]+)()()|/espocrm/api/v1/([^/]+)/([^/]+)/followers()()()|/espocrm/api/v1/([^/]+)/([^/]+)/subscription()()()()|/espocrm/api/v1/([^/]+)/([^/]+)/pin()()()()()|/espocrm/api/v1/([^/]+)/([^/]+)/starSubscription()()()()()()|/espocrm/api/v1/([^/]+)/([^/]+)/([^/]+)()()()()()())$~',
         'routeMap' => 
         array (
           2 => 
@@ -561,7 +561,7 @@
     array (
       0 => 
       array (
-        'regex' => '~^(?|/espocrm/espocrm/api/v1/LeadCapture/([^/]+))$~',
+        'regex' => '~^(?|/espocrm/api/v1/LeadCapture/([^/]+))$~',
         'routeMap' => 
         array (
           2 => 
@@ -579,7 +579,7 @@
     array (
       0 => 
       array (
-        'regex' => '~^(?|/espocrm/espocrm/api/v1/([^/]+)/action/([^/]+)|/espocrm/espocrm/api/v1/([^/]+)/layout/([^/]+)()|/espocrm/espocrm/api/v1/([^/]+)/layout/([^/]+)/([^/]+)()|/espocrm/espocrm/api/v1/Admin/fieldManager/([^/]+)/([^/]+)()()()|/espocrm/espocrm/api/v1/Team/([^/]+)/userPosition()()()()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)()()()()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)/subscription()()()()()()|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)/starSubscription()()()()()()())$~',
+        'regex' => '~^(?|/espocrm/api/v1/([^/]+)/action/([^/]+)|/espocrm/api/v1/([^/]+)/layout/([^/]+)()|/espocrm/api/v1/([^/]+)/layout/([^/]+)/([^/]+)()|/espocrm/api/v1/Admin/fieldManager/([^/]+)/([^/]+)()()()|/espocrm/api/v1/Team/([^/]+)/userPosition()()()()()|/espocrm/api/v1/([^/]+)/([^/]+)()()()()()|/espocrm/api/v1/([^/]+)/([^/]+)/subscription()()()()()()|/espocrm/api/v1/([^/]+)/([^/]+)/starSubscription()()()()()()())$~',
         'routeMap' => 
         array (
           3 => 
@@ -661,7 +661,7 @@
     array (
       0 => 
       array (
-        'regex' => '~^(?|/espocrm/espocrm/api/v1/Admin/fieldManager/([^/]+)/([^/]+)|/espocrm/espocrm/api/v1/([^/]+)/([^/]+)())$~',
+        'regex' => '~^(?|/espocrm/api/v1/Admin/fieldManager/([^/]+)/([^/]+)|/espocrm/api/v1/([^/]+)/([^/]+)())$~',
         'routeMap' => 
         array (
           3 => 
